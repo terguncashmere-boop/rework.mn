@@ -46,12 +46,21 @@
         </div>
 
         <figure class="hero__media">
-          <img
-            src="assets/img/hero.jpg"
-            alt="«Өөрөөр ажиллая» (Rework) номыг гартаа барьж буй хүн"
-            width="1280"
-            height="800"
-          />
+          <picture>
+            <source
+              type="image/webp"
+              srcset="assets/img/hero-1280.webp 1280w, assets/img/hero-2560.webp 2560w"
+              sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 1024px) calc(100vw - 64px), (max-width: 1408px) calc(100vw - 128px), 1280px"
+            />
+            <img
+              src="assets/img/hero.jpg"
+              alt="«Өөрөөр ажиллая» (Rework) номыг гартаа барьж буй хүн"
+              width="1280"
+              height="800"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </picture>
         </figure>
       </div>
     </section>
@@ -140,7 +149,7 @@
         <div class="credits__bottom">
           <hr class="credits__divider" />
           <div class="credits__row">
-            <p class="credits__copy">© 2026 Dino Clinic. Бүх эрх хуулиар хамгаалагдсан.</p>
+            <p class="credits__copy">© 2026 Rework. Бүх эрх хуулиар хамгаалагдсан.</p>
             <ul class="credits__links">
               <li><a href="#">Privacy policy</a></li>
               <li><a href="#">Terms of service</a></li>

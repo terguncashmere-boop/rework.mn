@@ -256,6 +256,10 @@ hr {
   max-width: var(--container-large);
 }
 
+.hero__media picture {
+  display: block;
+}
+
 .hero__media img {
   width: 100%;
   height: auto;
