@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28" height="144" viewBox="0 0 28 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Content">
+<g id="Frame">
+<path id="Vector" d="M24.5 5.83333H3.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M8.16667 14H3.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M8.16667 22.1667H3.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M14 21C14.7346 21.9795 15.7587 22.7029 16.9274 23.068C18.096 23.433 19.3498 23.4211 20.5113 23.034C21.6728 22.6468 22.683 21.904 23.3989 20.9108C24.1148 19.9176 24.5 18.7243 24.5 17.5C24.5 16.1076 23.9469 14.7723 22.9623 13.7877C21.9777 12.8031 20.6424 12.25 19.25 12.25C17.6983 12.25 16.2867 12.88 15.2717 13.895L12.8333 16.3333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M12.8333 11.6667V16.3333H17.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<line id="Divider" x1="15" y1="44" x2="15" y2="144" stroke="#0C0D0C" stroke-opacity="0.15" stroke-width="2"/>
+</g>
+</svg>
