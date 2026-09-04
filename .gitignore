@@ -1,0 +1,11 @@
+# Орчны хувьсагч — API token эндээс ХЭЗЭЭ Ч git рүү орох ёсгүй
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel
+
+# OS / editor
+Thumbs.db
+.DS_Store

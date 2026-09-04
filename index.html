@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Өөрөөр ажиллая — Rework</title>
   <meta name="description" content="Амьдралаа золиослолгүйгээр амжилтад хүрэх арга. Дэлхийн бестселлер — «Өөрөөр ажиллая» (Rework)." />
+  <!-- ЗАСВАРЛАХ: Vercel дээр deploy хийсний дараа доорх 3 хаягийг (canonical,
+       og:url, og:image) жинхэнэ домэйноороо солино. Бусад бүх зам харьцангуй. -->
   <link rel="canonical" href="https://terguncashmere-boop.github.io/rework.mn/" />
   <meta name="theme-color" content="#f8fbf8" />
 
@@ -39,10 +41,12 @@
         <img src="assets/icons/logo.svg" alt="Rework" width="140" height="40" />
       </a>
       <nav class="navbar__actions" aria-label="Үндсэн үйлдэл">
-        <a class="button button--primary button--sm" href="#order">Ном захиалах</a>
+        <button type="button" class="button button--primary button--sm" data-checkout="rework">Ном захиалах</button>
       </nav>
     </div>
   </header>
+
+  <p id="notice" class="notice" role="status" hidden></p>
 
   <main>
 
@@ -58,7 +62,7 @@
             </p>
           </div>
           <div class="hero__actions">
-            <a class="button button--primary" href="#order">Одоо захиалах</a>
+            <button type="button" class="button button--primary" data-checkout="rework">Одоо захиалах</button>
             <a class="button button--secondary" href="#steps">Номын хэсгээс</a>
           </div>
         </div>
@@ -179,6 +183,8 @@
 
     </div>
   </footer>
+
+  <script src="js/checkout.js" defer></script>
 
 </body>
 </html>
